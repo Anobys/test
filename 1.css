@@ -1,0 +1,159 @@
+/* Сброс стилей */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Подключение шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Общие стили */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* Обертка */
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Заголовок */
+header h1 {
+  font-family: "Lora", serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Основная часть */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Секции */
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+/* Изображения */
+section img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Заголовки глав */
+section h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Текст */
+p {
+  text-align: justify;
+}
+
+/* Ссылки на заметки */
+section a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/* Подвал */
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+/* Социальные сети */
+aside {
+  text-align: right;
+  margin-top: 20px;
+}
+
+aside ul.social {
+  list-style: none;
+  padding: 0;
+}
+
+aside ul.social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+aside ul.social li a {
+  color: #333;
+  font-size: 18px;
+}
+
+aside ul.social li a:hover {
+  color: #000;
+}
+
+/* Иконки */
+.fab {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+/* Дополнительные стили */
+h1 {
+  color: #777;
+}
+
+h2 {
+  color: #444;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #000;
+}
+
+footer {
+  background-color: #ddd;
+}
+
+/* Стили для бокового меню (если необходимо) */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #f5f5f5;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: 700;
